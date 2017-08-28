@@ -1,0 +1,3485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataset>
+  <table name='users'>
+  	<column>id</column>
+    <column>username</column>
+    <column>password</column>
+	<column>ssn</column>
+    <column>first_name</column>
+    <column>last_name</column>
+    <column>email</column>
+    <column>phone</column>
+    <column>password_hint</column>
+    <row>
+      <value>1</value>
+      <value>draphael</value>
+      <value>password</value>
+      <value>123-12-1234</value>
+      <value>David</value>
+      <value>Raphael</value>
+      <value>draphael@gmail.com</value>
+      <value>214-769-6098</value>
+      <value><![CDATA[  My Kitty ]]></value>
+    </row>
+  </table>
+  
+  <table name='products'>
+  	<column>id</column>
+  	<column>title</column>
+  	<column>description</column>
+  	<column>popularity</column>
+  	<column>price</column>
+	<column>vendor</column>
+	<column>category</column>
+	<column>publisher</column>
+	<column>isbn</column>
+	<column>author</column>
+	<column>quantity</column>
+<row>
+	<value>1</value>
+	<value>Hacking Exposed: Network Security Secrets &amp; Solutions, Fourth Edition (Hacking Exposed)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>McGraw-Hill Osborne Media</value>
+	<value>0072227427</value>
+	<value>Stuart  McClure, Joel  Scambray, George  Kurtz</value>
+	<value>0</value>
+</row>
+<row>
+	<value>2</value>
+	<value>Investments: A Global Perspective and Ibottson Associates Software Workbook and CD</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>130.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Prentice Hall</value>
+	<value>0130758760</value>
+	<value>Jack C. Francis, Roger Ibbotson</value>
+	<value>0</value>
+</row>
+<row>
+	<value>3</value>
+	<value>Security Engineering: A Guide to Building Dependable Distributed Systems</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>65.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>0471389226</value>
+	<value>Ross J.  Anderson, Ross Anderson</value>
+	<value>0</value>
+</row>
+<row>
+	<value>4</value>
+	<value>Cryptography and Network Security: Principles and Practice (3rd Edition)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>73.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Prentice Hall</value>
+	<value>0130914290</value>
+	<value>William Stallings</value>
+	<value>0</value>
+</row>
+<row>
+	<value>5</value>
+	<value>Ethereal Packet Sniffing</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Syngress</value>
+	<value>1932266828</value>
+	<value>Angela D. Orebaugh, Gilbert Ramirez, Ethereal.com</value>
+	<value>0</value>
+</row>
+<row>
+	<value>6</value>
+	<value>Building Secure Microsoft ASP.NET Applications</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Microsoft Press</value>
+	<value>0735618909</value>
+	<value>Microsoft Corporation</value>
+	<value>0</value>
+</row>
+<row>
+	<value>7</value>
+	<value>Financial Instrument Pricing Using C++ (The Wiley Finance Series)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>120.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>John Wiley &amp; Sons</value>
+	<value>0470855096</value>
+	<value>Daniel J.  Duffy</value>
+	<value>0</value>
+</row>
+<row>
+	<value>8</value>
+	<value>Exploiting Software : How to Break Code</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Addison-Wesley Pub Co</value>
+	<value>0201786958</value>
+	<value>Greg Hoglund, Gary McGraw</value>
+	<value>0</value>
+</row>
+<row>
+	<value>9</value>
+	<value>MCSA/MCSE Self-Paced Training Kit (Exam 70-299): Implementing and Administering Security in a Microsoft Windows Server 2003 Network (Pro-Certification)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>59.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Microsoft Press</value>
+	<value>073562061X</value>
+	<value>Tony Northrup, Orin Thomas</value>
+	<value>0</value>
+</row>
+<row>
+	<value>10</value>
+	<value>Investments: An Introduction with Investment Analysis Software</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>132.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>South-Western College Pub</value>
+	<value>0324180071</value>
+	<value>Herbert B. Mayo</value>
+	<value>0</value>
+</row>
+<row>
+	<value>11</value>
+	<value>MCSE Self-Paced Training Kit (Exam 70-298): Designing Security for a Microsoft  Windows Server(TM) 2003 Network (Training Kit)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>59.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Microsoft Press</value>
+	<value>0735619697</value>
+	<value>Roberta Bragg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>12</value>
+	<value>Building Secure Software: How to Avoid Security Problems the Right Way</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>54.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Addison-Wesley Pub Co</value>
+	<value>020172152X</value>
+	<value>John Viega, Gary McGraw</value>
+	<value>0</value>
+</row>
+<row>
+	<value>13</value>
+	<value>Secrets and Lies : Digital Security in a Networked World</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>17.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>0471453803</value>
+	<value>Bruce  Schneier</value>
+	<value>0</value>
+</row>
+<row>
+	<value>14</value>
+	<value>The Shellcoder's Handbook : Discovering and Exploiting Security Holes </value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>50.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>John Wiley &amp; Sons</value>
+	<value>0764544683</value>
+	<value>Jack  Koziol, David  Litchfield, Dave  Aitel, Chris  Anley, Sinan "noir"  Eren, Neel  Mehta, Riley  Hassell</value>
+	<value>0</value>
+</row>
+<row>
+	<value>15</value>
+	<value>Hackers and Painters: Big Ideas from the Computer Age</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>22.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>O'Reilly</value>
+	<value>0596006624</value>
+	<value>Paul Graham</value>
+	<value>0</value>
+</row>
+<row>
+	<value>16</value>
+	<value>Hardware Hacking: Have Fun While Voiding Your Warranty</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>39.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Syngress</value>
+	<value>1932266836</value>
+	<value>Joe Grand, Ryan Russell, Kevin Mitnick (Editor)</value>
+	<value>0</value>
+</row>
+<row>
+	<value>17</value>
+	<value>MCAD/MCSD Self-Paced Training Kit: Implementing Security for Applications with Microsoft  Visual Basic  .NET and Microsoft Visual C#  .NET (Pro-Certification (Paperback))</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>69.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Microsoft Press</value>
+	<value>0735621217</value>
+	<value>Anthony Northrup</value>
+	<value>0</value>
+</row>
+<row>
+	<value>18</value>
+	<value>Hacking the Xbox: An Introduction to Reverse Engineering</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>24.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>No Starch</value>
+	<value>1593270291</value>
+	<value>Andrew Huang</value>
+	<value>0</value>
+</row>
+<row>
+	<value>19</value>
+	<value>Special Edition Using WordPerfect 12 (Special Edition Using)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>39.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Que</value>
+	<value>0789732432</value>
+	<value>Laura Acklen, Read Gilgen</value>
+	<value>0</value>
+</row>
+<row>
+	<value>20</value>
+	<value>The Complete Guide to Option Pricing Formulas</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>55.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>McGraw-Hill</value>
+	<value>0786312408</value>
+	<value>Espen Gaardner Haug</value>
+	<value>0</value>
+</row>
+<row>
+	<value>21</value>
+	<value>CISSP All-in-One Exam Guide</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>79.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Osborne/McGraw-Hill</value>
+	<value>0072193530</value>
+	<value>Shon Harris</value>
+	<value>0</value>
+</row>
+<row>
+	<value>22</value>
+	<value>C++ Design Patterns and Derivatives Pricing (Mathematics, Finance and Risk)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>55.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Cambridge University Press</value>
+	<value>0521832357</value>
+	<value>Mark S. Joshi</value>
+	<value>0</value>
+</row>
+<row>
+	<value>23</value>
+	<value>Know Your Enemy : Learning about Security Threats (2nd Edition)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Addison-Wesley Professional</value>
+	<value>0321166469</value>
+	<value>The Honeynet Project</value>
+	<value>0</value>
+</row>
+<row>
+	<value>24</value>
+	<value>Security+ Certification Training Kit</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>59.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Microsoft Press</value>
+	<value>0735618224</value>
+	<value>Microsoft Corporation, Andy Ruth, Kurt Hudson, Microsoft Corporation</value>
+	<value>0</value>
+</row>
+<row>
+	<value>25</value>
+	<value>How to Break Software Security</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>35.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Addison Wesley</value>
+	<value>0321194330</value>
+	<value>James A. Whittaker, Herbert H. Thompson, Herbert Thompson</value>
+	<value>0</value>
+</row>
+<row>
+	<value>26</value>
+	<value>Implementing Backup and Recovery: The Readiness Guide for the Enterprise</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>45.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>0471227145</value>
+	<value>David B  Little, David A.  Chapa, David B Little, David A. Chapa</value>
+	<value>0</value>
+</row>
+<row>
+	<value>27</value>
+	<value>Security+ Certification All-in-One Exam Guide</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>59.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>McGraw-Hill Osborne Media</value>
+	<value>0072226331</value>
+	<value>Gregory White</value>
+	<value>0</value>
+</row>
+<row>
+	<value>28</value>
+	<value>Linux Troubleshooting Bible</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>29.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>John Wiley &amp; Sons</value>
+	<value>076456997X</value>
+	<value>Christopher  Negus, Thomas  Weeks</value>
+	<value>0</value>
+</row>
+<row>
+	<value>29</value>
+	<value>Computer Forensics: Computer Crime Scene Investigation (With CD-ROM)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>39.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Charles River Media</value>
+	<value>1584500182</value>
+	<value>John R. Vacca, John Vacca</value>
+	<value>0</value>
+</row>
+<row>
+	<value>30</value>
+	<value>Building Winning Trading Systems with TradeStation</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>85.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>0471215694</value>
+	<value>George  Pruitt, John R.  Hill</value>
+	<value>0</value>
+</row>
+<row>
+	<value>31</value>
+	<value>Malicious Cryptography: Exposing Cryptovirology</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>45.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>0764549758</value>
+	<value>Adam  Young, Moti  Yung</value>
+	<value>0</value>
+</row>
+<row>
+	<value>32</value>
+	<value>Security+ Exam Cram 2 (Exam Cram SYO-101)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>29.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Que</value>
+	<value>0789729105</value>
+	<value>Kirk Hausman, Diane Barrett, Martin Weiss, Ed Tittel</value>
+	<value>0</value>
+</row>
+<row>
+	<value>33</value>
+	<value>Deploying Virtual Private Networks with Microsoft Windows Server 2003</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Microsoft Press</value>
+	<value>0735615764</value>
+	<value>Elliot Lewis, Joseph Davies</value>
+	<value>0</value>
+</row>
+<row>
+	<value>34</value>
+	<value>Security+ Certification for Dummies</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>29.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>For Dummies</value>
+	<value>076452576X</value>
+	<value>Lawrence H.  Miller, Peter H.  Gregory</value>
+	<value>0</value>
+</row>
+<row>
+	<value>35</value>
+	<value>Data Mining Techniques : For Marketing, Sales, and Customer Relationship Management</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>50.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>*Wiley Computer Publishing</value>
+	<value>0471470643</value>
+	<value>Michael J. A.  Berry, Gordon S.  Linoff</value>
+	<value>0</value>
+</row>
+<row>
+	<value>36</value>
+	<value>Secure Programming Cookbook for C and C++</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>O'Reilly</value>
+	<value>0596003943</value>
+	<value>John Viega, Matt Messier</value>
+	<value>0</value>
+</row>
+<row>
+	<value>37</value>
+	<value>Security+ Prep Guide</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>74.77</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>0764525999</value>
+	<value>Ronald L.  Krutz, Russell Dean  Vines, Ronald L. Krutz, Russell Dean Vines</value>
+	<value>0</value>
+</row>
+<row>
+	<value>38</value>
+	<value>The Art of Intrusion : The Real Stories Behind the Exploits of Hackers, Intruders &amp; Deceivers</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>27.5</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>John Wiley &amp; Sons</value>
+	<value>0764569597</value>
+	<value>Kevin D.  Mitnick, William L.  Simon</value>
+	<value>0</value>
+</row>
+<row>
+	<value>39</value>
+	<value>MCSA/MCSE: Windows 2000 Network Security Administration Study Guide (70-214)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Sybex Inc</value>
+	<value>0782142060</value>
+	<value>Bill English, Russ Kaufman, Russ Kaufmann</value>
+	<value>0</value>
+</row>
+<row>
+	<value>40</value>
+	<value>Network Security for Dummies</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>29.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>For Dummies</value>
+	<value>0764516795</value>
+	<value>Chey  Cobb, Chey Cobb</value>
+	<value>0</value>
+</row>
+<row>
+	<value>41</value>
+	<value>WarDriving: Drive, Detect, Defend, A Guide to Wireless Security</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Syngress</value>
+	<value>1931836035</value>
+	<value>Chris Hurley, Russ Rogers, Frank Thornton</value>
+	<value>0</value>
+</row>
+<row>
+	<value>42</value>
+	<value>The SSCP Prep Guide: Mastering the Seven Key Areas of System Security</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>60.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>0471273511</value>
+	<value>Debra S.  Isaac, Michael J.  Isaac</value>
+	<value>0</value>
+</row>
+<row>
+	<value>43</value>
+	<value>The CISM Prep Guide : Mastering the Five Domains of Information Security Management</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>60.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>John Wiley &amp; Sons</value>
+	<value>0471455989</value>
+	<value>Ronald L.  Krutz, Russell Dean  Vines</value>
+	<value>0</value>
+</row>
+<row>
+	<value>44</value>
+	<value>Linux iptables Pocket Reference</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>O'Reilly</value>
+	<value>0596005695</value>
+	<value>Gregor N. Purdy</value>
+	<value>0</value>
+</row>
+<row>
+	<value>45</value>
+	<value>Implementing Intrusion Detection Systems : A Hands-On Guide for Securing the Network </value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>40.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>0764549499</value>
+	<value>Tim  Crothers</value>
+	<value>0</value>
+</row>
+<row>
+	<value>46</value>
+	<value>MCSA/MCSE: Windows Server 2003 Network Security Administration Study Guide (70-299)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Sybex Inc</value>
+	<value>0782143326</value>
+	<value>Russ Kaufmann, Bill English</value>
+	<value>0</value>
+</row>
+<row>
+	<value>47</value>
+	<value>Secure Architectures with OpenBSD</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>34.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Addison-Wesley Professional</value>
+	<value>0321193660</value>
+	<value>Brandon Palmer, Jose Nazario</value>
+	<value>0</value>
+</row>
+<row>
+	<value>48</value>
+	<value>Cryptography for Visual Basic(r) : A Programmer's Guide to the Microsoft(r) CryptoAPI</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>John Wiley &amp; Sons</value>
+	<value>0471381896</value>
+	<value>Richard Bondi</value>
+	<value>0</value>
+</row>
+<row>
+	<value>49</value>
+	<value>Security+ Study Guide, 2nd Edition (SYO-101)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Sybex Inc</value>
+	<value>0782143504</value>
+	<value>Mike Pastore, Emmett Dulaney, Emmette Delaney, Michael A. Pastore</value>
+	<value>0</value>
+</row>
+<row>
+	<value>50</value>
+	<value>Information Security Management Handbook, 2004 Edition</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>199.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Auerbach Publications</value>
+	<value>0849322405</value>
+	<value>Harold F. Tipton</value>
+	<value>0</value>
+</row>
+<row>
+	<value>51</value>
+	<value>Writing Secure Code (With CD-ROM)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>39.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Microsoft Press</value>
+	<value>0735615888</value>
+	<value>David LeBlanc, Michael Howard</value>
+	<value>0</value>
+</row>
+<row>
+	<value>52</value>
+	<value>Hacking the Code: ASP.NET Web Application Security</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Syngress</value>
+	<value>1932266658</value>
+	<value>Mark Burnett</value>
+	<value>0</value>
+</row>
+<row>
+	<value>53</value>
+	<value>Threat Modeling (Microsoft Professional)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>34.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Microsoft Press</value>
+	<value>0735619913</value>
+	<value>Frank Swiderski, Window Snyder</value>
+	<value>0</value>
+</row>
+<row>
+	<value>54</value>
+	<value>Innocent Code : A Security Wake-Up Call for Web Programmers</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>45.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>John Wiley &amp; Sons</value>
+	<value>0470857447</value>
+	<value>Sverre H.  Huseby</value>
+	<value>0</value>
+</row>
+<row>
+	<value>55</value>
+	<value>Firewalls for Dummies, Second Edition</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>24.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>For Dummies</value>
+	<value>0764540483</value>
+	<value>Brian  Komar, Ronald  Beekelaar, Joern  Wettern</value>
+	<value>0</value>
+</row>
+<row>
+	<value>56</value>
+	<value>Absolute Beginner's Guide to WordPerfect 12 (Absolute Beginner's Guide)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>18.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Que</value>
+	<value>0789732424</value>
+	<value>Laura Acklen</value>
+	<value>0</value>
+</row>
+<row>
+	<value>57</value>
+	<value>CCSE NG: Check Point Certified Security Expert Study Guide</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>59.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Sybex Inc</value>
+	<value>0782141161</value>
+	<value>Valerie Leveille, Sarvang Shah</value>
+	<value>0</value>
+</row>
+<row>
+	<value>58</value>
+	<value>Dr. Tom Shinder's ISA Server and Beyond with CDROM</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>59.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Syngress</value>
+	<value>1931836663</value>
+	<value>Thomas W. Shinder, Martin Grasdal, Debra Littlejohn Shinder</value>
+	<value>0</value>
+</row>
+<row>
+	<value>59</value>
+	<value>Digital Certificates: Applied Internet Security</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>46.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Addison-Wesley Professional</value>
+	<value>0201309807</value>
+	<value>Jalal Feghhi, Peter Williams</value>
+	<value>0</value>
+</row>
+<row>
+	<value>60</value>
+	<value>Security+ Study Guide and DVD Training System</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>59.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Syngress</value>
+	<value>1931836728</value>
+	<value>Robert J. Shimonski, Norris L. Johnson, Debra Littlejohn Shinder, Michael Cross, Tony Piltzecker, Jeremy Faircloth</value>
+	<value>0</value>
+</row>
+<row>
+	<value>61</value>
+	<value>CCIE Practical Studies: Security (CCIE Self-Study)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>75.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Cisco Press</value>
+	<value>1587051109</value>
+	<value>Dmitry Bokotey, Andrew Mason, Raymond Morrow</value>
+	<value>0</value>
+</row>
+<row>
+	<value>62</value>
+	<value>MCSA/MCSE Exam 70-292 Study Guide and DVD Training System: Managing and Maintaining a Windows Server 2003 Environment for an MCSA Certified on Windows 2000</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>59.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Syngress</value>
+	<value>1932266569</value>
+	<value>Will Schmied, Robert J. Shimonski</value>
+	<value>0</value>
+</row>
+<row>
+	<value>63</value>
+	<value>Hacking Exposed: Network Security Secrets &amp; Solutions (Hacking Exposed)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>39.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>McGraw-Hill Osborne Media</value>
+	<value>0072121270</value>
+	<value>Stuart McClure, Joel Scambray, George Kurtz</value>
+	<value>0</value>
+</row>
+<row>
+	<value>64</value>
+	<value>MCSE ISA Server 2000 Exam Cram (Exam: 70-227)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>34.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Coriolis Group Books</value>
+	<value>1576109410</value>
+	<value>Diana Bartley, Gregory Smith</value>
+	<value>0</value>
+</row>
+<row>
+	<value>65</value>
+	<value>J2EE &amp; Java: Developing Secure Web Applications with Java Technology (Hacking Exposed)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Osborne/McGraw-Hill</value>
+	<value>0072225653</value>
+	<value>Art Taylor, Brian Buege, Randy Layman</value>
+	<value>0</value>
+</row>
+<row>
+	<value>66</value>
+	<value>Software Forensics : Collecting Evidence from the Scene of a Digital Crime</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>39.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>McGraw-Hill Professional</value>
+	<value>0071428046</value>
+	<value>Robert  Slade, Robert Slade</value>
+	<value>0</value>
+</row>
+<row>
+	<value>67</value>
+	<value>ColdFusion 5: A Beginner's Guide</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>29.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Osborne/McGraw-Hill</value>
+	<value>0072191090</value>
+	<value>Jeffry Houser</value>
+	<value>0</value>
+</row>
+<row>
+	<value>68</value>
+	<value>Hiding in Plain Sight : Steganography and the Art of Covert Communication</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>35.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>0471444499</value>
+	<value>Eric  Cole</value>
+	<value>0</value>
+</row>
+<row>
+	<value>69</value>
+	<value>Disaster Recovery Planning: For Computers and Communication Resouces</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>85.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>0471121754</value>
+	<value>Jon William  Toigo</value>
+	<value>0</value>
+</row>
+<row>
+	<value>70</value>
+	<value>Deploying Secure 802.11 Wireless Networks with Microsoft Windows</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>39.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Microsoft Press</value>
+	<value>0735619395</value>
+	<value>Joseph Davies</value>
+	<value>0</value>
+</row>
+<row>
+	<value>71</value>
+	<value>Programming Windows Security</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>39.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Addison-Wesley Professional</value>
+	<value>0201604426</value>
+	<value>Keith Brown</value>
+	<value>0</value>
+</row>
+<row>
+	<value>72</value>
+	<value>.NET Development Security Solutions</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>39.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Sybex Inc</value>
+	<value>0782142664</value>
+	<value>John Paul Mueller, John Paul Mueller, John Mueller</value>
+	<value>0</value>
+</row>
+<row>
+	<value>73</value>
+	<value>Visual Basic .NET Code Security Handbook</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>29.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wrox Press</value>
+	<value>1861007477</value>
+	<value>Eric Lippert</value>
+	<value>0</value>
+</row>
+<row>
+	<value>74</value>
+	<value>Essential SourceSafe</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Hentzenwerke Publishing</value>
+	<value>1930919050</value>
+	<value>Larry C. Whipple, Ted Roche</value>
+	<value>0</value>
+</row>
+<row>
+	<value>75</value>
+	<value>Cisco Networking Academy Program Fundamentals of Network Security Companion Guide</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>80.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Cisco Press</value>
+	<value>1587131226</value>
+	<value>Inc. Cisco Systems, Cisco Networking Academy Program, Cisco Systems Inc., Cisco Networking Academy Program</value>
+	<value>0</value>
+</row>
+<row>
+	<value>76</value>
+	<value>Open Source Security Tools : Practical Guide to Security Applications, A (Bruce Perens Open Source)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Prentice Hall PTR</value>
+	<value>0321194438</value>
+	<value>Tony Howlett</value>
+	<value>0</value>
+</row>
+<row>
+	<value>77</value>
+	<value>.NET Security and Cryptography</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Prentice Hall PTR</value>
+	<value>013100851X</value>
+	<value>Peter Thorsteinson, G. Gnana Arun Ganesh</value>
+	<value>0</value>
+</row>
+<row>
+	<value>78</value>
+	<value>Microsoft Office 2004 for Mac in a Snap (Sams Teach Yourself)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>24.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Sams</value>
+	<value>0672326698</value>
+	<value>Richard H. Baker</value>
+	<value>0</value>
+</row>
+<row>
+	<value>79</value>
+	<value>Digital Signatures</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>59.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Osborne/McGraw-Hill</value>
+	<value>0072194820</value>
+	<value>Ben Hammond</value>
+	<value>0</value>
+</row>
+<row>
+	<value>80</value>
+	<value>A Short Course on Computer Viruses (Wiley Professional Computing)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>44.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>John Wiley &amp; Sons</value>
+	<value>0471007692</value>
+	<value>Frederick B. Cohen</value>
+	<value>0</value>
+</row>
+<row>
+	<value>81</value>
+	<value>Crackproof Your Software: Protect Your Software Against Crackers (With CD-ROM)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>34.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>No Starch Press</value>
+	<value>1886411794</value>
+	<value>Pavol Cerven</value>
+	<value>0</value>
+</row>
+<row>
+	<value>82</value>
+	<value>Desktop Witness: The Do's &amp; Don'ts of Personal Computer Security</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>55.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>John Wiley &amp; Sons</value>
+	<value>0471486574</value>
+	<value>Michael A.  Caloyannides</value>
+	<value>0</value>
+</row>
+<row>
+	<value>83</value>
+	<value>Network Security Architectures</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>55.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Cisco Press</value>
+	<value>158705115X</value>
+	<value>Sean Convery</value>
+	<value>0</value>
+</row>
+<row>
+	<value>84</value>
+	<value>Real Options Analysis Course : Business Cases and Software Applications (Book and CD ROM)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>299.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>0471430013</value>
+	<value>Johnathan  Mun</value>
+	<value>0</value>
+</row>
+<row>
+	<value>85</value>
+	<value>SSL &amp; TLS Essentials: Securing the Web</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>39.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>0471383546</value>
+	<value>Stephen A.  Thomas</value>
+	<value>0</value>
+</row>
+<row>
+	<value>86</value>
+	<value>MCSE Training Kit: Microsoft(r) Internet Security and Acceleration Server 2000</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>59.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Microsoft Press</value>
+	<value>0735613478</value>
+	<value>Microsoft Corporation, Microsoft Corporation</value>
+	<value>0</value>
+</row>
+<row>
+	<value>87</value>
+	<value>Disappearing Cryptography, Second Edition - Information Hiding: Steganography and Watermarking</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>47.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Morgan Kaufmann</value>
+	<value>1558607692</value>
+	<value>Peter Wayner</value>
+	<value>0</value>
+</row>
+<row>
+	<value>88</value>
+	<value>MCSE Designing Microsoft Windows 2000 Network Security Readiness Review; Exam 70-220</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>29.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Microsoft Press</value>
+	<value>0735613656</value>
+	<value>MeasureUp Inc., Jeff Durham, MeasureUp Inc.</value>
+	<value>0</value>
+</row>
+<row>
+	<value>89</value>
+	<value>Load Balancing Servers, Firewalls, * Caches</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>0471415502</value>
+	<value>Chandra  Kopparapu</value>
+	<value>0</value>
+</row>
+<row>
+	<value>90</value>
+	<value>Storage Security: Protecting, SANs, NAS and DAS</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>45.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>0764516884</value>
+	<value>John  Chirillo, Scott  Blaul, John Chirillo, Scott Blaul</value>
+	<value>0</value>
+</row>
+<row>
+	<value>91</value>
+	<value>Microsoft Internet Security and Acceleration (ISA) Server 2000 Administrator's Pocket Consultant</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>29.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Microsoft Press</value>
+	<value>0735614423</value>
+	<value>Bud Ratliff, Jason Ballard</value>
+	<value>0</value>
+</row>
+<row>
+	<value>92</value>
+	<value>Hardening Linux (Hardening)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>39.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>McGraw-Hill Osborne Media</value>
+	<value>0072254971</value>
+	<value>John  Terpstra, Paul  Love, Ronald P. Reck, Tim  Scanlon</value>
+	<value>0</value>
+</row>
+<row>
+	<value>93</value>
+	<value>MCSA/MCSE Self-Paced Training Kit: Implementing and Managing Security in a Microsoft Windows 2000 Network Infrastructure, Exam 70-214</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>59.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Microsoft Press</value>
+	<value>073561878X</value>
+	<value>Microsoft Corporation, Matthew Strebe, Microsoft Corporation</value>
+	<value>0</value>
+</row>
+<row>
+	<value>94</value>
+	<value>Practical Cryptography</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>70.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>047122894X</value>
+	<value>Niels  Ferguson, Bruce  Schneier</value>
+	<value>0</value>
+</row>
+<row>
+	<value>95</value>
+	<value>MCSE Windows 2000 Security Design Exam Prep (Exam: 70-220)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Coriolis Group Books</value>
+	<value>1576107078</value>
+	<value>Richard A. McMahon, Glen Bicking, Ronald Milione</value>
+	<value>0</value>
+</row>
+<row>
+	<value>96</value>
+	<value>MCSE Designing Security for a Microsoft Windows Server 2003 Network Exam Cram 2 (Exam Cram 70-298)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>29.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Que</value>
+	<value>0789730162</value>
+	<value>Bill Ferguson</value>
+	<value>0</value>
+</row>
+<row>
+	<value>97</value>
+	<value>Defend I.T. : Security by Example</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>34.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Addison-Wesley Professional</value>
+	<value>0321197674</value>
+	<value>Ajay Gupta, Scott Laliberte</value>
+	<value>0</value>
+</row>
+<row>
+	<value>98</value>
+	<value>Building Open Source Network Security Tools: Components and Techniques</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>45.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>0471205443</value>
+	<value>Mike  Schiffman, Mike Schiffman</value>
+	<value>0</value>
+</row>
+<row>
+	<value>99</value>
+	<value>Microsoft Windows Security Inside Out for Windows XP and Windows 2000</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>44.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Microsoft Press</value>
+	<value>0735616329</value>
+	<value>Ed Bott, Carl Siechert</value>
+	<value>0</value>
+</row>
+<row>
+	<value>100</value>
+	<value>Homeland Security Techniques and Technologies (Networking Series)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Charles River Media</value>
+	<value>1584503289</value>
+	<value>Jesus Mena</value>
+	<value>0</value>
+</row>
+<row>
+	<value>101</value>
+	<value>Secure Messaging with Microsoft Exchange Server 2000</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Microsoft Press</value>
+	<value>0735618763</value>
+	<value>Paul Robichaux</value>
+	<value>0</value>
+</row>
+<row>
+	<value>102</value>
+	<value>Classical and Contemporary Cryptology</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>67.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Prentice Hall</value>
+	<value>0131828312</value>
+	<value>Richard J. Spillman</value>
+	<value>0</value>
+</row>
+<row>
+	<value>103</value>
+	<value>Forensic Computing : A Practitioner's Guide (Practitioner Series)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>64.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Springer</value>
+	<value>1852332999</value>
+	<value>A J Sammes, Brian Jenkinson</value>
+	<value>0</value>
+</row>
+<row>
+	<value>104</value>
+	<value>MCSE Windows 2000 Security Design Exam Cram (Exam: 70-220)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>29.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Coriolis Group Books</value>
+	<value>1576107159</value>
+	<value>Phillip G. Schein</value>
+	<value>0</value>
+</row>
+<row>
+	<value>105</value>
+	<value>70-220: MCSE Guide to Designing Microsoft Windows 2000 Security</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>70.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Course Technology</value>
+	<value>0619016884</value>
+	<value>Stanley Reimer, Conan Kezema</value>
+	<value>0</value>
+</row>
+<row>
+	<value>106</value>
+	<value>Trading Index Options</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>34.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>McGraw-Hill</value>
+	<value>0786312300</value>
+	<value>James B. Bittman</value>
+	<value>0</value>
+</row>
+<row>
+	<value>107</value>
+	<value>Windows Server 2003 Security Bible</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>076454912X</value>
+	<value>Blair  Rampling</value>
+	<value>0</value>
+</row>
+<row>
+	<value>108</value>
+	<value>MCSA/MCSE 70-299 Exam Cram 2 : Implementing and Administering Security in a Windows 2003 Network (Exam Cram 2)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>29.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Que</value>
+	<value>078973138X</value>
+	<value>Bill Ferguson, Don Poulton, Diane Barrett</value>
+	<value>0</value>
+</row>
+<row>
+	<value>109</value>
+	<value>MCSE: Windows 2000 Network Security Design Study Guide</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>59.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Sybex Inc</value>
+	<value>0782129528</value>
+	<value>Gary Govanus, Robert King, Rob Amini</value>
+	<value>0</value>
+</row>
+<row>
+	<value>110</value>
+	<value>Pricing Derivative Securities: An Interactive, Dynamic Environment with Maple V and Matlab</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>115.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Academic Press</value>
+	<value>0125649150</value>
+	<value>Eliezer Z. Prisman</value>
+	<value>0</value>
+</row>
+<row>
+	<value>111</value>
+	<value>Web Security</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>71.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Course Technology</value>
+	<value>0619064951</value>
+	<value>David Mackey</value>
+	<value>0</value>
+</row>
+<row>
+	<value>112</value>
+	<value>Digital Watermarking: Principles &amp; Practice</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>77.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Morgan Kaufmann</value>
+	<value>1558607145</value>
+	<value>Ingemar Cox, Matthew Miller, Jeffrey Bloom, Mathew Miller</value>
+	<value>0</value>
+</row>
+<row>
+	<value>113</value>
+	<value>Events vs. Services: The Real Story : Best Practices in Event-Driven SOA</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>114</value>
+	<value>MCSE: ISA Server 2000 Administration Study Guide: Exam 70 227 with CDROM</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Sybex Inc</value>
+	<value>0782129331</value>
+	<value>William Heldman</value>
+	<value>0</value>
+</row>
+<row>
+	<value>115</value>
+	<value>The Security+ Exam Guide (Testtaker's Guide Series)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>34.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Charles River Media</value>
+	<value>1584502517</value>
+	<value>Christopher A. Crayton</value>
+	<value>0</value>
+</row>
+<row>
+	<value>116</value>
+	<value>Implementing Biometric Security</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>45.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>0764525026</value>
+	<value>John  Chirillo, Scott  Blaul, John Chirillo, Scott Blaul</value>
+	<value>0</value>
+</row>
+<row>
+	<value>117</value>
+	<value>Applied Cryptography: Protocols, Algorithms, and Source Code in C</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>44.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>John Wiley &amp; Sons Inc (Computers)</value>
+	<value>0471597562</value>
+	<value>Bruce Schneier</value>
+	<value>0</value>
+</row>
+<row>
+	<value>118</value>
+	<value>MCSA/MCSE Self-Paced Training Kit (Exam 70-350): Implementing Microsoft Internet Security and Acceleration Server 2004 (Pro-Certification)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>59.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Microsoft Press</value>
+	<value>0735621691</value>
+	<value>Orin Thomas, Stan Reimer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>119</value>
+	<value>Identity &amp; Access Management : Fundamental Prerequisites for Service-Oriented Architectures</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg, Ronald D. Schmelzer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>120</value>
+	<value>Security+ In Depth</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>39.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Muska &amp; Lipman/Premier-Trade</value>
+	<value>1592000649</value>
+	<value>Paul Campbell, Ben Calvert, Steven Boswell</value>
+	<value>0</value>
+</row>
+<row>
+	<value>121</value>
+	<value>Building VPNs : with IPSec and MPLS (Professional Telecom)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>65.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>McGraw-Hill Professional</value>
+	<value>0071409319</value>
+	<value>Tan  Nam-Kee, Nam-Kee Tan</value>
+	<value>0</value>
+</row>
+<row>
+	<value>122</value>
+	<value>Data Security: How to Bulletproof Your Hardware and Software</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>34.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Learning Express</value>
+	<value>1559587504</value>
+	<value>Janet Endrijonas</value>
+	<value>0</value>
+</row>
+<row>
+	<value>123</value>
+	<value>Implementing SSH: Strategies for Optimizing the Secure Shell</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>35.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>John Wiley &amp; Sons</value>
+	<value>0471458805</value>
+	<value>Himanshu Dwivedi</value>
+	<value>0</value>
+</row>
+<row>
+	<value>124</value>
+	<value>Incident Response: Computer Forensics Toolkit</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>45.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>0764526367</value>
+	<value>Douglas  Schweitzer, Douglas Schweitzer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>125</value>
+	<value>.NET Framework Security</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>57.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Addison-Wesley Pub Co</value>
+	<value>067232184X</value>
+	<value>Brian A. LaMacchia, Sebastian Lange, Matthew Lyons, Rudi Martin, Kevin T. Price</value>
+	<value>0</value>
+</row>
+<row>
+	<value>126</value>
+	<value>CIW Security Professional Certification Bible</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>59.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>0764548220</value>
+	<value>Mandy  Andress, Phil  Cox, Ed  Tittel</value>
+	<value>0</value>
+</row>
+<row>
+	<value>127</value>
+	<value>Secure Systems Development with UML</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Springer</value>
+	<value>3540007016</value>
+	<value>Jan Jürjens</value>
+	<value>0</value>
+</row>
+<row>
+	<value>128</value>
+	<value>Safety Critical Computer Systems</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>67.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Addison Wesley</value>
+	<value>0201427877</value>
+	<value>Neil Storey</value>
+	<value>0</value>
+</row>
+<row>
+	<value>129</value>
+	<value>Mastering Web Services Security</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>40.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>0471267163</value>
+	<value>Bret  Hartman, Donald J.  Flinn, Konstantin  Beznosov, Shirley  Kawamoto, Bret Hartman, Donald J. Flinn, Konstantin Beznosov, Shirley Kawamoto</value>
+	<value>0</value>
+</row>
+<row>
+	<value>130</value>
+	<value>Creating a Presentation in PowerPoint : Visual QuickProject Guide (Visual Quickproject Series)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>12.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Peachpit Press</value>
+	<value>0321278445</value>
+	<value>Tom Negrino</value>
+	<value>0</value>
+</row>
+<row>
+	<value>131</value>
+	<value>The GSEC Prep Guide : Mastering SANS GIAC Security Essentials</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>60.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>John Wiley &amp; Sons</value>
+	<value>0764539329</value>
+	<value>Mike  Chapple</value>
+	<value>0</value>
+</row>
+<row>
+	<value>132</value>
+	<value>Hack Proofing Linux : A Guide to Open Source Security</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Syngress</value>
+	<value>1928994342</value>
+	<value>James Stanger, Patrick T. Lane</value>
+	<value>0</value>
+</row>
+<row>
+	<value>133</value>
+	<value>Configuring Citrix Metaframe XP for Windows</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Syngress</value>
+	<value>1931836531</value>
+	<value>Elias N. Khaser, Melissa Craft, Chris Broomes, Thomas Eck, Craig Luchtefeld</value>
+	<value>0</value>
+</row>
+<row>
+	<value>134</value>
+	<value>Software Fault Tolerance Techniques and Implementation (Artech House Computer Security Series)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>89.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Artech House Publishers</value>
+	<value>1580531377</value>
+	<value>Laura L. Pullum</value>
+	<value>0</value>
+</row>
+<row>
+	<value>135</value>
+	<value>Fidelity Select Money: The Complete Investor's Guide to Track and Improve Fidelity Select Mutual Fund Performance (Business Essentials)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>45.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>ATL Press</value>
+	<value>188236001X</value>
+	<value>Donald D. Pickinpaugh, Sherri Pickinpaugh</value>
+	<value>0</value>
+</row>
+<row>
+	<value>136</value>
+	<value>Infosys: Global Consulting Powerhouse</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Ronald D. Schmelzer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>137</value>
+	<value>ZapNote: RSA Security : Application Security Tools Leader</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>138</value>
+	<value>Best Practices in Event-Driven Service-Oriented Architecture</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>139</value>
+	<value>MCSE Training Guide (70-227): Installing, Configuring, and Administering Microsoft Internet Security and Acceleration (ISA) Server 2000</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Que</value>
+	<value>0735710929</value>
+	<value>Roberta Bragg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>140</value>
+	<value>Process, Presentation, and Integration : Service Orientation in Practice</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>141</value>
+	<value>ZapNote: Documentum</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Ronald D. Schmelzer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>142</value>
+	<value>Overview of Web Services Security</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>143</value>
+	<value>EA Summit: ZapThink Roadmap for SOA Adoption</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg, Ronald D. Schmelzer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>144</value>
+	<value>Web Services Security Technologies &amp; Markets</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>145</value>
+	<value>The Principles of Service-Oriented Architectures</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>146</value>
+	<value>Building Security into a Service-Oriented Architecture</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>147</value>
+	<value>The SOA Implementation Framework</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>148</value>
+	<value>Hack Proofing Your Web Applications</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Syngress</value>
+	<value>1928994318</value>
+	<value>Ryan Russell, Syngress Publishing</value>
+	<value>0</value>
+</row>
+<row>
+	<value>149</value>
+	<value>Local Area Network Management, Design &amp; Security</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>55.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>John Wiley &amp; Sons</value>
+	<value>047149769X</value>
+	<value>Arne  Mikalsen, Per  Borgesen</value>
+	<value>0</value>
+</row>
+<row>
+	<value>150</value>
+	<value>Steal This Computer Book 2 : What They Won't Tell You About the Internet</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>24.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>No Starch</value>
+	<value>1886411425</value>
+	<value>Wallace Wang</value>
+	<value>0</value>
+</row>
+<row>
+	<value>151</value>
+	<value>ASP.NET Security</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Peer Information</value>
+	<value>1861006209</value>
+	<value>Brady Gaster, Dan Kent, Doug Seven, Enrico Sabbadin, Richard Conway, Russ Basiura, Sitaraman Lakshminarayanan, Srinivasa Sivakumar</value>
+	<value>0</value>
+</row>
+<row>
+	<value>152</value>
+	<value>MCSE Training Guide (70-220): Windows 2000 Network Security Design, Second Edition</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Que</value>
+	<value>078972880X</value>
+	<value>Roberta Bragg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>153</value>
+	<value>ISP Liability Survival Guide: Strategies for Managing Copyright, Spam, Cache, and Privacy Regulations</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>39.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>0471377481</value>
+	<value>Timothy D.  Casey</value>
+	<value>0</value>
+</row>
+<row>
+	<value>154</value>
+	<value>Understanding Service-Oriented Architectures</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Ronald D. Schmelzer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>155</value>
+	<value>PKI Security Solutions for the Enterprise: Solving HIPAA, E-Paper Act, and Other Compliance Issues</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>40.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>047131529X</value>
+	<value>Kapil Raina</value>
+	<value>0</value>
+</row>
+<row>
+	<value>156</value>
+	<value>Designing Secure Web-Based Applications for Microsoft(r) Windows(r) 2000</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Microsoft Press</value>
+	<value>0735609950</value>
+	<value>Michael Howard</value>
+	<value>0</value>
+</row>
+<row>
+	<value>157</value>
+	<value>Professional Linux Programming</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>59.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Peer Information Inc.</value>
+	<value>1861003013</value>
+	<value>Neil Matthew and Richard Stones, Brad Clements, Andrew Froggatt, David J. Goodger, Ivan Griffin, Jeff Licquia, Ronald van Loon, Harish Rawat, Udaya Ranawake, Marius Sundbakken, Deepak Thomas, Stephen J. Turnbull, David Woodhouse, Richard Stones, Christopher Browne</value>
+	<value>0</value>
+</row>
+<row>
+	<value>158</value>
+	<value>The Software Vulnerability Guide (Programming Series)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Charles River Media</value>
+	<value>1584503580</value>
+	<value>Herbert Thompson, Scott Chase</value>
+	<value>0</value>
+</row>
+<row>
+	<value>159</value>
+	<value>Microsoft ISA Configuration and Administration</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>44.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>0764548050</value>
+	<value>Curt  Simmons</value>
+	<value>0</value>
+</row>
+<row>
+	<value>160</value>
+	<value>Malicious Mobile Code: Virus Protection for Windows (O'Reilly Computer Security)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>39.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>O'Reilly</value>
+	<value>156592682X</value>
+	<value>Roger A. Grimes</value>
+	<value>0</value>
+</row>
+<row>
+	<value>161</value>
+	<value>Mission-Critical Security Planner: When Hackers Won't Take No for an Answer</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>35.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>0471211656</value>
+	<value>Eric  Greenberg, Eric Greenberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>162</value>
+	<value>The Myth of Homeland Security</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>24.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>John Wiley &amp; Sons</value>
+	<value>0471458791</value>
+	<value>Marcus  Ranum</value>
+	<value>0</value>
+</row>
+<row>
+	<value>163</value>
+	<value>Tools for the Direct Access Trader: Hardware, Software, Resources, and Everything Else You Need to Get Started</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>24.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>McGraw-Hill</value>
+	<value>0071362487</value>
+	<value>Alicia  Abell</value>
+	<value>0</value>
+</row>
+<row>
+	<value>164</value>
+	<value>MCSE Windows 2000 Network Security Design: Training Guide Exam 70-220 (with CD-ROM)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>New Riders Publishing</value>
+	<value>073570984X</value>
+	<value>Roberta Bragg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>165</value>
+	<value>Mastering SQL Server 2000 Security (Gearhead Press--In the Trenches)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>50.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>0471219703</value>
+	<value>Mike  Young, Curtis W.  Young</value>
+	<value>0</value>
+</row>
+<row>
+	<value>166</value>
+	<value>The Essential Palm Programming Guide: Quickly Customize or Create Your Own PDA Programs</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>34.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Data Becker</value>
+	<value>1585070521</value>
+	<value>Christian Immler</value>
+	<value>0</value>
+</row>
+<row>
+	<value>167</value>
+	<value>Maximum Security</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Sams</value>
+	<value>0672313413</value>
+	<value>Not Applicable (Na )</value>
+	<value>0</value>
+</row>
+<row>
+	<value>168</value>
+	<value>Cryptography and Public Key Infrastructure on the Internet</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>50.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>John Wiley &amp; Sons</value>
+	<value>047084745X</value>
+	<value>Klaus  Schmeh</value>
+	<value>0</value>
+</row>
+<row>
+	<value>169</value>
+	<value>The Handbook of Exotic Options: Instruments, Analysis, and Application</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>70.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>McGraw-Hill</value>
+	<value>1557389047</value>
+	<value>Israel "Izzy" Nelken</value>
+	<value>0</value>
+</row>
+<row>
+	<value>170</value>
+	<value>Enterprise Security with EJB and CORBA(r)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>44.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>John Wiley &amp; Sons</value>
+	<value>0471401315</value>
+	<value>Bret Hartman, Donald J. Flinn, Konstantin Beznosov, Donald Flinn</value>
+	<value>0</value>
+</row>
+<row>
+	<value>171</value>
+	<value>Hack Attacks Testing: How to Conduct Your Own Security Audit</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>50.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>0471229466</value>
+	<value>John  Chirillo, John Chirillo</value>
+	<value>0</value>
+</row>
+<row>
+	<value>172</value>
+	<value>Modeling Financial Derivatives With Mathematica (Includes CD-ROM)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>200.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Cambridge University Press</value>
+	<value>052159233X</value>
+	<value>William T. Shaw</value>
+	<value>0</value>
+</row>
+<row>
+	<value>173</value>
+	<value>A Guide to Securing XML and Web Services</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg, Ronald D. Schmelzer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>174</value>
+	<value>Securing XML Web Services : Identity &amp; Access Management: Fundamental Prerequisites for Mission-Critical Web Services</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>175</value>
+	<value>Case Study: Merrill Lynch</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>176</value>
+	<value>Web Security Sourcebook</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>39.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>047118148X</value>
+	<value>Aviel D.  Rubin, Daniel  Geer, Marcus  Ranum</value>
+	<value>0</value>
+</row>
+<row>
+	<value>177</value>
+	<value>Mastering Network Security</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>39.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Sybex Inc</value>
+	<value>0782123430</value>
+	<value>Chris Brenton</value>
+	<value>0</value>
+</row>
+<row>
+	<value>178</value>
+	<value>Cybersecurity Operations Handbook</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>94.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Digital Press</value>
+	<value>1555583067</value>
+	<value>PhD, CISM, John Rittinghouse, PhD, CISSP, CISM, William M. Hancock</value>
+	<value>0</value>
+</row>
+<row>
+	<value>179</value>
+	<value>Windows NT Security; Programming Easy-to-Use Security Options</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>39.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>R &amp; D Books</value>
+	<value>0879304731</value>
+	<value>Nik Okuntseff</value>
+	<value>0</value>
+</row>
+<row>
+	<value>180</value>
+	<value>Ultimate Technical Trading Software</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>John Wiley &amp; Sons</value>
+	<value>0470820845</value>
+	<value>Paul Leo, Peter Temple</value>
+	<value>0</value>
+</row>
+<row>
+	<value>181</value>
+	<value>Microsoft ISA Server 2000</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>34.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Sams</value>
+	<value>0672321009</value>
+	<value>Zubair Alexander</value>
+	<value>0</value>
+</row>
+<row>
+	<value>182</value>
+	<value>Ultimate Internet Outlaw : How Surfers Steal Sex, Software, Cds, Games, And More Top-Secret Stuff On The Information Superhighway</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>15.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Paladin Press</value>
+	<value>1581600291</value>
+	<value>Robert Merkle</value>
+	<value>0</value>
+</row>
+<row>
+	<value>183</value>
+	<value>Halting the Hacker: A Practical Guide to Computer Security (With CD-ROM)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>44.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Prentice Hall PTR</value>
+	<value>0130464163</value>
+	<value>Donald L. Pipkin</value>
+	<value>0</value>
+</row>
+<row>
+	<value>184</value>
+	<value>Hidden Keys to Software Break-ins and Unauthorized Entry</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>29.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>A-List Publishing</value>
+	<value>1931769303</value>
+	<value>Dmitry Sklyarov</value>
+	<value>0</value>
+</row>
+<row>
+	<value>185</value>
+	<value>The Vmware Workstation 5.0 Handbook (Networking &amp; Security)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>44.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Charles River Media</value>
+	<value>1584503939</value>
+	<value>Steven Warren</value>
+	<value>0</value>
+</row>
+<row>
+	<value>186</value>
+	<value>Hack Proofing ColdFusion</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Syngress</value>
+	<value>1928994776</value>
+	<value>Steve Casco, Rob Rusher, Greg Meyer, Sarge, David Vaccaro, David An</value>
+	<value>0</value>
+</row>
+<row>
+	<value>187</value>
+	<value>ICSA Guide to Cryptography</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>70.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>McGraw-Hill Osborne Media</value>
+	<value>0079137598</value>
+	<value>Randall K. Nichols</value>
+	<value>0</value>
+</row>
+<row>
+	<value>188</value>
+	<value>MCSE Designing Security for a Windows Server 2003 Network: Exam 70-298</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>59.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Syngress</value>
+	<value>1932266550</value>
+	<value>Elias Khasner, Laura E. Hunter</value>
+	<value>0</value>
+</row>
+<row>
+	<value>189</value>
+	<value>Hack Attacks Encyclopedia: A Complete History of Hacks, Cracks, Phreaks, and Spies over Time</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>64.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>John Wiley &amp; Sons</value>
+	<value>0471055891</value>
+	<value>John Chirillo</value>
+	<value>0</value>
+</row>
+<row>
+	<value>190</value>
+	<value>MCSE: Implementing and Supporting Microsoft Proxy Server 2.0</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Prentice Hall PTR</value>
+	<value>0130112488</value>
+	<value>Kostya Ryvkin, David Houde, Tim Hoffman</value>
+	<value>0</value>
+</row>
+<row>
+	<value>191</value>
+	<value>Bug Proofing Visual Basic: A Guide to Error Handling and Prevention</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>39.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>John Wiley &amp; Sons</value>
+	<value>0471323519</value>
+	<value>Rod Stephens</value>
+	<value>0</value>
+</row>
+<row>
+	<value>192</value>
+	<value>Smart Card Developer's Kit</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>79.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Macmillan Technical Pub</value>
+	<value>1578700272</value>
+	<value>Scott Guthery, Timothy M. Jurgensen</value>
+	<value>0</value>
+</row>
+<row>
+	<value>193</value>
+	<value>Riskgrade Your Investments: Measure Your Risk and Create Wealth</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>29.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>0471418617</value>
+	<value>Gregory Elmiger, Steve S. Kim, Ethan Berman</value>
+	<value>0</value>
+</row>
+<row>
+	<value>194</value>
+	<value>Learn Encryption Techniques with BASIC and C++</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>39.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wordware Publishing</value>
+	<value>1556225989</value>
+	<value>Gilbert Held, Gil Held</value>
+	<value>0</value>
+</row>
+<row>
+	<value>195</value>
+	<value>Introduction to AS/400 System Operations (2nd Edition)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>29th Street Press</value>
+	<value>1583040455</value>
+	<value>Heidi Rothenbuehler, Patrice Gapen, Patrice Gapen</value>
+	<value>0</value>
+</row>
+<row>
+	<value>196</value>
+	<value>Virus Proof : The Ultimate Guide to Protecting Your PC</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>34.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Premier Press</value>
+	<value>0761527478</value>
+	<value>Phil Schmauder</value>
+	<value>0</value>
+</row>
+<row>
+	<value>197</value>
+	<value>MCSE Designing Security for Windows 2000 Network Study Guide (Exam 70-220) (Book/CD-ROM package)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>49.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Osborne/McGraw-Hill</value>
+	<value>0072124970</value>
+	<value>Thomas Shinder, Littlejohn Debra Shinder, Syngress Media Inc., Thomas W. Shinder, Debra Littlejohn Shinder</value>
+	<value>0</value>
+</row>
+<row>
+	<value>198</value>
+	<value>Accenture: SOA as Strategic Architecture for Improving Business Performance</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>199</value>
+	<value>Investing Online for Dummies</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>24.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Hungry Minds Inc</value>
+	<value>0764503367</value>
+	<value>Kathleen Sindell</value>
+	<value>0</value>
+</row>
+<row>
+	<value>200</value>
+	<value>Macromedia Flex: Expanding on Flash to Provide Rich Client Capabilities</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Ronald D. Schmelzer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>201</value>
+	<value>Four Steps to Trading Success: Using Everyday Indicators to Achieve Extraordinary Profits</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>65.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>0471414824</value>
+	<value>John F.  Clayburg, John F. Clayburg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>202</value>
+	<value>Fast Software Encryption: 8th International Workshop, Fse 2001, Yokohama, Japan, April 2-4, 2001 : Revised Papers (Lecture Notes in Computer Science, 2355)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>69.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Springer-Verlag Telos</value>
+	<value>3540438696</value>
+	<value>Mitsuru Matsui</value>
+	<value>0</value>
+</row>
+<row>
+	<value>203</value>
+	<value>.NET Security Programming (Gearhead Press - In the Trenches)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>50.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Wiley</value>
+	<value>0471222852</value>
+	<value>Donis  Marshall, Donis Marshall</value>
+	<value>0</value>
+</row>
+<row>
+	<value>204</value>
+	<value>Secret Software : Making The Most Of Computer Resources For Data Protection, Information Recovery, Forensic Examination, Crime Investgation And More</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>20.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Paladin Press</value>
+	<value>1581600887</value>
+	<value>Norbert Zaenglein</value>
+	<value>0</value>
+</row>
+<row>
+	<value>205</value>
+	<value>CyberRegs: A Business Guide to Web Property, Privacy, and Patents</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>39.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Addison-Wesley Professional</value>
+	<value>0201722305</value>
+	<value>Bill Zoellick</value>
+	<value>0</value>
+</row>
+<row>
+	<value>206</value>
+	<value>Metadata: The Lifeblood of the Service-Oriented Architecture</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>207</value>
+	<value>High Integrity Software: The SPARK Approach to Safety and Security</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>69.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Addison Wesley</value>
+	<value>0321136160</value>
+	<value>John Barnes</value>
+	<value>0</value>
+</row>
+<row>
+	<value>208</value>
+	<value>Protect Your Privacy on the Internet</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>29.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>John Wiley &amp; Sons</value>
+	<value>0471181439</value>
+	<value>Bryan Pfaffenberger</value>
+	<value>0</value>
+</row>
+<row>
+	<value>209</value>
+	<value>.NET Security</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>44.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Apress</value>
+	<value>1590590538</value>
+	<value>Jason Bock, Tom Fischer, Nathan Smith, Pete Stromquist</value>
+	<value>0</value>
+</row>
+<row>
+	<value>210</value>
+	<value>As/400 Security in a Client/Server Environment</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>60.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>John Wiley &amp; Sons</value>
+	<value>0471116831</value>
+	<value>Joseph S. Park</value>
+	<value>0</value>
+</row>
+<row>
+	<value>211</value>
+	<value>The Computer Privacy Handbook: A Practical Guide to E-Mail Encryption, Data Protection, and Pgp Privacy Software</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>24.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Peachpit Press</value>
+	<value>1566091713</value>
+	<value>Andre Bacard</value>
+	<value>0</value>
+</row>
+<row>
+	<value>212</value>
+	<value> Information as a Service: Service-Oriented Information Integration</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Ronald D. Schmelzer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>213</value>
+	<value>Windows .Net Server Security Handbook (With CD-ROM)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>39.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Prentice Hall PTR</value>
+	<value>0130477265</value>
+	<value>Cyrus Peikari, Seth Fogie</value>
+	<value>0</value>
+</row>
+<row>
+	<value>214</value>
+	<value>SOA Governance : IT Governance in the Context of Service Orientation</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>215</value>
+	<value>Service-Oriented Architecture: Why and How?</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>216</value>
+	<value>Information Security Best Practices: 205 Basic Rules</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>31.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Butterworth-Heinemann</value>
+	<value>1878707965</value>
+	<value>George L. Stefanek</value>
+	<value>0</value>
+</row>
+<row>
+	<value>217</value>
+	<value>Open Source E-mail Security</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>34.99</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>Sams</value>
+	<value>0672322374</value>
+	<value>Richard Blum</value>
+	<value>0</value>
+</row>
+<row>
+	<value>218</value>
+	<value>Putting The Control Of The Business Process Into The Business User?s Hands</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Ronald D. Schmelzer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>219</value>
+	<value>Web Services Tutorial Part 1</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Ronald D. Schmelzer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>220</value>
+	<value>Worldwide Security Software 2004-2008 Forecast and 2003 Vendor Shares</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>4500.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>IDC, Brian E. Burke, Keith Waryas, Christian A. Christiansen, Sally Hudson</value>
+	<value>0</value>
+</row>
+<row>
+	<value>221</value>
+	<value>Processus, Presentation et Integration (French) : L'Orientation Service en Pratique</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>222</value>
+	<value>The Rich Client: The New Interface for the Next Generation of Distributed Computing</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Ronald D. Schmelzer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>223</value>
+	<value>Prozess, Pr㲥ntation und Integration (German) : Service Orientierte Architektur in der Praxis</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>224</value>
+	<value>Securing &amp; Managing XML &amp; Web Services in the Enterprise</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg, Ronald D. Schmelzer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>225</value>
+	<value>Why Service-Oriented Architecture?</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>226</value>
+	<value>Wilshire EDF Conference: Implementing Service-Oriented Architectures for Business Agility</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Ronald D. Schmelzer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>227</value>
+	<value>Solving Information Integration Challenges in a Service-Oriented Enterprise</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Ronald D. Schmelzer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>228</value>
+	<value>How to Succeed Through Service Oriented Integration</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Ronald D. Schmelzer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>229</value>
+	<value>Context &amp; Identity : The Linchpins of Web Services Security</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>230</value>
+	<value>Accelerating Processing in an Event-Driven Service-Oriented Architecture</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>495.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Ronald D. Schmelzer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>231</value>
+	<value>Why Should You Care about SOA?</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>232</value>
+	<value>Untangling the Application Morass : Building Agile Composite Applications with SOA</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg, Ronald D. Schmelzer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>233</value>
+	<value>Japan Security Software 2005-2009 Forecast and 2004 Vendor Shares</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>5000.0</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Paolo Pescatore</value>
+	<value>0</value>
+</row>
+<row>
+	<value>234</value>
+	<value>The SOA Implementation Framework : The Future of Service-Oriented Architecture Software</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>235</value>
+	<value>Implementing Secure Web Services in B2B Environments</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Ronald D. Schmelzer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>236</value>
+	<value>What?s the Big Deal about Web Services and Service-Oriented Architectures?</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>237</value>
+	<value>E-Business and XML: Where Metadata Makes Money</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Ronald D. Schmelzer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>238</value>
+	<value>The Path to Successful Web Services : Navigating the Pitfalls</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>239</value>
+	<value>The Benefits and Pitfalls of Service-Oriented Architecture</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>240</value>
+	<value>Web Services Management : The Key to the Service-Oriented Architecture</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>241</value>
+	<value>Web Services Management : The Key to the Service-Oriented Architecture</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>242</value>
+	<value>Web Services Management : Successfully Architecting the Future of your Business</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>243</value>
+	<value>Expanding The Potential of Filemaker With XML</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Ronald D. Schmelzer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>244</value>
+	<value>Web Services Security : presentation for Beacon IT</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>245</value>
+	<value>Enterprise Portals and Business Performance Management : presentation for OutlookSoft</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>246</value>
+	<value>Recruiting WS-I Members from Vertical Industries : Establishing and Communicating the Value Proposition for Industry Membership</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Ronald D. Schmelzer, Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>247</value>
+	<value>Processing XML on the Network : The Importance of the Data Layer</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Ronald D. Schmelzer, Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>248</value>
+	<value>Web Services Tutorial Part 1</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Ronald D. Schmelzer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>249</value>
+	<value>Optimizing Web Services in the Enterprise : From Point-to-Point Web Services to Service-Oriented Architectures</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Ronald D. Schmelzer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>250</value>
+	<value>The Business Case for Web Services</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>251</value>
+	<value>Service-Oriented Architecture Landscape</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Ronald D. Schmelzer, Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>252</value>
+	<value>Is Microsoft Truly Committed to Open Standards? : presentation for SearchWebServices</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>253</value>
+	<value>Wilshire EDF: Service-Oriented Integration and Process</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Ronald D. Schmelzer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>254</value>
+	<value>Fundamentals of XML, Web Services &amp; SOAs for Financial Services</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Ronald D. Schmelzer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>255</value>
+	<value>Lowering IT Total Cost of Ownership with Web Services</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>256</value>
+	<value>Service-Oriented Development: Changing How Software is Written</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>257</value>
+	<value>Solving the IT Impasse with Service Orientation</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>258</value>
+	<value>Asynchronous and Synchronous Messaging with Web Services and XML</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Ronald D. Schmelzer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>259</value>
+	<value>Service-Oriented Integration : for Beacon Group (Japan)</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Ronald D. Schmelzer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>260</value>
+	<value>Web Services and SOAs in the Enterprise</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Ronald D. Schmelzer, Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>261</value>
+	<value>Creating a Network of Trust for Web Services</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>262</value>
+	<value>The Value Proposition for Service-Oriented Integration : Using Web Services and Service-Oriented Architectures to Facilitate Internal and External Integration</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Ronald D. Schmelzer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>263</value>
+	<value>What's Hot with Web Services?</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Ronald D. Schmelzer</value>
+	<value>0</value>
+</row>
+<row>
+	<value>264</value>
+	<value>Context &amp; Identity : The Linchpins of Web Services Security</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Jason Bloomberg</value>
+	<value>0</value>
+</row>
+<row>
+	<value>265</value>
+	<value>Semantic Web: Providing Meaning in a Connected World</value>
+	<value>This is a book without a description.</value>
+	<value>0</value>
+	<value>9.95</value>
+	<value>Amazon</value>
+	<value>Technology</value>
+	<value>null</value>
+	<value>null</value>
+	<value>Ronald D. Schmelzer</value>
+	<value>0</value>
+</row>
+  </table>	
+
+</dataset>
